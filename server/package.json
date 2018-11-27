@@ -1,0 +1,21 @@
+{
+  "name": "cms-server",
+  "version": "1.0.0",
+  "description": "CMS-server side description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --ext js --watch src",
+    "test": "test"
+  },
+  "author": "Старовойт Сергей <starovoyt.s@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
